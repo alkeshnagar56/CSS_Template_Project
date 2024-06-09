@@ -18,7 +18,7 @@ html{
     position:sticky;
     top: 0px;
     height: 80px;
-    width: 1263px;
+    width: 100%;
     background-color: white;
     margin: 0px;
     padding: 0px;
@@ -146,26 +146,23 @@ a{
     background-color: white;
     display: none;
     position: absolute;
-    top: 50px;
-
+    top: 60px;
 }
 .navdrop:hover .navdroplst{
     display: block;
-    background-color:#dadce1;
+    background-color:#f8f9fa;
 }
 .navoption{
     width:100%;
-    height:50px;
+    height:70px;
     border: 0px;
     text-decoration: none;
     display: block;
-    padding: 10px 0px;
+    padding: 20px 0px;
     text-align: center;
-
-
 }
 .navoption:hover{
-    background-color: #f1c40f;
+    background-color: #ffd747;
 }
 
 
@@ -179,7 +176,7 @@ a{
     background-repeat: no-repeat;
     align-items: center;
     height: 730px;
-    width: 1263.33px;
+    width: 100%;
     background-size: 100%;
     align-content: center;
     justify-content: center;
@@ -322,7 +319,7 @@ display: flex;
     background-position: center;
     background-size: cover;
     height: 391px;
-    width: 1263.33px;
+    width: 100%;
     margin: 50px opx;
     display: flex;
     align-items:flex-start;
@@ -1124,8 +1121,8 @@ body {
     background-position: center;
     background-size: cover;
     height: 20px;
-    width: 20px;
-    margin-bottom: 20px;
+    width: 20px;    
+    margin-left: 20px;
 }
 
 .gmap_canvas{
@@ -1518,7 +1515,6 @@ body {
 
 @media screen and (min-width:300px) and (max-width:550px) {
     .nav{
-        width: 98vw;
         display: block;
         padding: 5px 20px   ;
         text-align: center;
@@ -1576,7 +1572,7 @@ body {
         padding: 0.5em 0;
         width: 100%;
         color: black;
-        background-color: #E8E8E8;
+        background-color: #ffffff;
         transition: all 0.5s ease;
       }
 
@@ -1600,7 +1596,8 @@ body {
 
 
     .menu{
-        padding-top: 20px;
+        /* padding-top: 20px; */
+        margin-top: 50px;
         justify-content: flex-start;
     }
     .chldmenu{
@@ -1801,6 +1798,9 @@ body {
         flex-direction: column;
         align-items: baseline;
 
+    }
+    .chldmapmail{
+        margin: 0px;
     }
     /* .mapimg{
         width: 300px;
