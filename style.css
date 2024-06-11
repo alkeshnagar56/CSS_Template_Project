@@ -1576,6 +1576,9 @@ body {
         background-color: #ffffff;
         transition: all 0.5s ease;
       }
+      .navoption{
+        z-index: 7;
+      }
 
 
 
